@@ -14,6 +14,7 @@
         "react-dom": "latest"
     },
     "devDependencies": {
+        "@tailwindcss/typography": "^0.5.10",
         "autoprefixer": "latest",
         "daisyui": "^3.8.3",
         "postcss": "latest",
