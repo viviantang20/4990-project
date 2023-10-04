@@ -1,3 +1,5 @@
+"use client";
+
 export default function Home() {
     return (
         <main className="h-screen w-screen flex align-center justify-center">
@@ -11,8 +13,8 @@ export default function Home() {
                     The AI course she told you not to worry about
                 </h2>
                 <div className="form-control mt-6">
-                    <label class="label">
-                        <span class="label-text">Get Notified</span>
+                    <label className="label">
+                        <span className="label-text">Get Notified</span>
                     </label>
                     <div className="input-group">
                         <input
@@ -20,9 +22,37 @@ export default function Home() {
                             placeholder="abc@gmail.com"
                             className="input input-bordered"
                         />
-                        <button className="btn btn-square">Join</button>
+                        <button
+                            className="btn btn-square"
+                            onClick={() =>
+                                document
+                                    .getElementById("my_modal_5")
+                                    .showModal()
+                            }
+                        >
+                            Join
+                        </button>
                     </div>
                 </div>
+                <dialog
+                    id="my_modal_5"
+                    className="modal modal-bottom sm:modal-middle"
+                >
+                    <div className="modal-box">
+                        <h3 className="font-bold text-lg">
+                            Thanks for Joining!
+                        </h3>
+                        <p className="py-4">
+                            I'm not going to save your email right now, so check
+                            back later :)
+                        </p>
+                        <div className="modal-action">
+                            <form method="dialog">
+                                <button className="btn">Close</button>
+                            </form>
+                        </div>
+                    </div>
+                </dialog>
             </div>
         </main>
     );
