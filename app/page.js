@@ -8,7 +8,7 @@ export default function Home() {
                 </h2>
                 <div className="divider"></div>
                 <h2 className="text-lg">
-                    The AI course that she told you not to worry about
+                    The AI course she told you not to worry about
                 </h2>
                 <div className="form-control mt-6">
                     <label class="label">
