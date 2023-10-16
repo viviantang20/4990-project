@@ -1,3 +1,4 @@
+"use client";
 import axios from "axios";
 import Markdown from "react-markdown";
 
@@ -22,7 +23,7 @@ export default async function Page({ params }) {
     const filePath = params.slug + ".md";
 
     // Replace 'your-token' with the personal access token you generated
-    const accessToken = process.env.GITHUB_ACCESS_TOKEN;
+    const accessToken = process.env.NEXT_PUBLIC_GITHUB_ACCESS_TOKEN;
 
     // GitHub API endpoint to get a file
     const apiUrl = `https://api.github.com/repos/${githubUsername}/${repositoryName}/contents/${filePath}`;
