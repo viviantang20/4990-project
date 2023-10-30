@@ -34,7 +34,7 @@ export default function Home() {
                         </button>
                     </div>
                 </div>
-                <dialog
+                {/* <dialog
                     id="my_modal_5"
                     className="modal modal-bottom sm:modal-middle"
                 >
@@ -52,7 +52,7 @@ export default function Home() {
                             </form>
                         </div>
                     </div>
-                </dialog>
+                </dialog> */}
             </div>
         </main>
     );
