@@ -1,6 +1,6 @@
-"use client";
 import axios from "axios";
 import Markdown from "react-markdown";
+import Sidebar from "@/components/sidebar";
 
 async function getData(url, headers) {
     try {
@@ -35,9 +35,12 @@ export default async function Page({ params }) {
     let pageContent = await getData(apiUrl, headers);
 
     return (
-        <div className="prose">
-            <div>Lesson: {params.slug}</div>
-            {pageContent ? <Markdown>{pageContent}</Markdown> : "..."}
+        <div className="w-full flex flex-row">
+            <Sidebar />
+            <div className="prose">
+                <div>Lesson: {params.slug}</div>
+                {pageContent ? <Markdown>{pageContent}</Markdown> : "..."}
+            </div>
         </div>
     );
 }
