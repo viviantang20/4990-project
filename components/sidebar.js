@@ -11,9 +11,7 @@ export default function Sidebar() {
             <li className="menu-title">Artificial Intelligence: A Modern Approach</li>
             {Links.map((link) => (
                 <li key={link.id}>
-                    {/* <a key={link.id} className={link.url == pathname ? "active" : ""}> */}
                         <Link href={`${link.url}`} className={link.url == pathname ? "active" : ""}>{link.title}</Link>
-                    {/* </a> */}
                 </li>
             ))}
         </div>
