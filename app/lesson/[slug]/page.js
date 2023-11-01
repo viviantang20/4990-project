@@ -36,11 +36,13 @@ export default async function Page({ params }) {
 
     return (
         <div className="w-full flex flex-row">
-            <Sidebar />
-            <div className="prose">
-                <div>Lesson: {params.slug}</div>
-                {pageContent ? <Markdown>{pageContent}</Markdown> : "..."}
-            </div>
+        <Sidebar />
+        <div className="flex-1  pl-8">
+                <div className="prose ">
+                     Lesson : {params.slug}
+                    {pageContent ? <Markdown>{pageContent}</Markdown> : "Loading..."}
+                </div>
         </div>
+    </div>
     );
 }
