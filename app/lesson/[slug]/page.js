@@ -1,6 +1,8 @@
 import axios from "axios";
 import Markdown from "react-markdown";
 import Sidebar from "@/components/sidebar";
+import Quiz from '@/components/quiz';
+import quizData from '@/data/quizData'
 
 async function getData(url, headers) {
     try {
@@ -42,6 +44,7 @@ export default async function Page({ params }) {
                      Lesson : {params.slug}
                     {pageContent ? <Markdown>{pageContent}</Markdown> : "Loading..."}
                 </div>
+                <Quiz questions={quizData[params.slug] || []}  />    
         </div>
     </div>
     );
