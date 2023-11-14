@@ -41,7 +41,6 @@ export default async function Page({ params }) {
         <Sidebar />
         <div className="flex-1  pl-8">
                 <div className="prose ">
-                     Lesson : {params.slug}
                     {pageContent ? <Markdown>{pageContent}</Markdown> : "Loading..."}
                 </div>
                 <Quiz questions={quizData[params.slug] || []}  />    

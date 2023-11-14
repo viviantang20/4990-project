@@ -40,7 +40,11 @@ const Quiz = ({ questions }) => {
                 key={index}
                 className={`cursor-pointer p-2 mb-2 text-white rounded-md ${
                   selectedOption === option
-                    ? 'bg-emerald-600' // Highlight selected answer
+                    ? showFeedback
+                      ? questions[currentQuestion].correctAnswer === option
+                        ? 'bg-green-700' // Highlight selected correct answer in green after submission
+                        : 'bg-red-500' // Highlight selected incorrect answer in red after submission
+                      : 'bg-emerald-600' // Highlight selected answer without submission
                     : showFeedback && questions[currentQuestion].correctAnswer === option
                     ? 'bg-green-700' // Highlight correct answer after submission
                     : 'bg-emerald-900'
@@ -57,7 +61,7 @@ const Quiz = ({ questions }) => {
             className={`mt-4 p-2 rounded-md ${
               showFeedback ? 'bg-green-500 text-white' : 'bg-green-500 text-white'
             }`}
-            onClick={showFeedback ? handleNextQuestion : handleSubmit}
+            onClick={showFeedback ? handleNextQuestion : handleSubmit} 
           >
             {showFeedback ? 'Next' : 'Submit'}
           </button>
