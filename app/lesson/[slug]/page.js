@@ -1,8 +1,8 @@
 import axios from "axios";
 import Markdown from "react-markdown";
 import Sidebar from "@/components/sidebar";
-import Quiz from '@/components/quiz';
-import quizData from '@/data/quizData'
+import Quiz from "@/components/quiz";
+import quizData from "@/data/quizData";
 
 async function getData(url, headers) {
     try {
@@ -22,6 +22,15 @@ export default async function Page({ params }) {
     // Set your GitHub username, repository name, and the file path
     const githubUsername = "NoumanAMalik";
     const repositoryName = "i-love-ai-docs";
+
+    // Exit early until we are ready to handle algorithms
+    if (params.slug.includes("algorithm"))
+        return (
+            <div className="w-full flex flex-row">
+                <Sidebar />
+            </div>
+        );
+
     const filePath = params.slug + ".md";
 
     // Replace 'your-token' with the personal access token you generated
@@ -38,13 +47,17 @@ export default async function Page({ params }) {
 
     return (
         <div className="w-full flex flex-row">
-        <Sidebar />
-        <div className="flex-1  pl-8">
+            <Sidebar />
+            <div className="flex-1  pl-8">
                 <div className="prose ">
-                    {pageContent ? <Markdown>{pageContent}</Markdown> : "Loading..."}
+                    {pageContent ? (
+                        <Markdown>{pageContent}</Markdown>
+                    ) : (
+                        "Loading..."
+                    )}
                 </div>
-                <Quiz questions={quizData[params.slug] || []}  />    
+                <Quiz questions={quizData[params.slug] || []} />
+            </div>
         </div>
-    </div>
     );
 }

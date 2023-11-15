@@ -1,4 +1,4 @@
-let Links = [
+let chapterLinks = [
     {
         url: "/lesson/Introduction",
         title: "Introduction",
@@ -44,6 +44,6 @@ let Links = [
         title: "Inference in First-Order Logic",
         id: 9,
     },
-]
+];
 
-export default Links;
+export default chapterLinks;
