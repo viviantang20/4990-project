@@ -1,8 +1,11 @@
+"use client";
+
 import axios from "axios";
 import Markdown from "react-markdown";
 import Sidebar from "@/components/sidebar";
 import Quiz from "@/components/quiz";
 import quizData from "@/data/quizData";
+import Giscus from "@giscus/react";
 
 async function getData(url, headers) {
     try {
@@ -57,6 +60,23 @@ export default async function Page({ params }) {
                     )}
                 </div>
                 <Quiz questions={quizData[params.slug] || []} />
+
+                <Giscus
+                    id="comments"
+                    repo="NoumanAMalik/i-love-ai-docs"
+                    repoId="R_kgDOKhC1Xw"
+                    category="Q&A"
+                    categoryId="DIC_kwDOKhC1X84Cc_Yl"
+                    mapping="pathname"
+                    term="Welcome to @giscus/react component!"
+                    reactionsEnabled="1"
+                    emitMetadata="0"
+                    inputPosition="top"
+                    theme="preferred_color_scheme"
+                    lang="en"
+                    loading="lazy"
+                    crossorigin="anonymous"
+                />
             </div>
         </div>
     );
