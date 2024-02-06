@@ -14,7 +14,7 @@ export default function Sidebar() {
                     ❤ Artificial Intelligence: A Modern Approach
                 </h2>
                 <details open>
-                    <summary>Chapters</summary>
+                    <summary>Textbook Chapters</summary>
                     <ul>
                         {chapterLinks.map((link) => (
                             <li key={link.id}>
@@ -31,7 +31,7 @@ export default function Sidebar() {
                     </ul>
                 </details>
                 <details open>
-                    <summary>Algorithms</summary>
+                    <summary> Search Algorithms |  Chapter 3</summary>
                     <ul>
                         {algorithmLinks.map((link) => (
                             <li key={link.id}>

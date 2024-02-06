@@ -41,7 +41,7 @@ let algorithmLinks = [
     },
     {
         url: "/lesson/Search-Algorithms",
-        title: "Search Algorithms",
+        title: "Overview of Search Algorithms",
         id: 19,
     },
 ];
