@@ -1,11 +1,17 @@
 "use client";
 // components/Quiz.js
 import { useState } from "react";
+import { toast } from "sonner";
 
 const Quiz = ({ questions }) => {
     const [currentQuestion, setCurrentQuestion] = useState(0);
     const [selectedOption, setSelectedOption] = useState(null);
     const [showFeedback, setShowFeedback] = useState(false);
+    const [numCorrect, setNumCorrect] = useState(0);
+
+    const incrementCorrect = () => {
+        setNumCorrect((prev) => prev + 1);
+    };
 
     const handleOptionSelect = (option) => {
         if (!showFeedback) {
@@ -15,6 +21,7 @@ const Quiz = ({ questions }) => {
 
     const handleSubmit = () => {
         setShowFeedback(true);
+        toast.success(`${numCorrect} / 4`);
     };
 
     const handleNextQuestion = () => {
