@@ -6,17 +6,33 @@ import algorithmLinks from "@/data/algorithm-link";
 import algorithmLinksCh4 from "@/data/algorithmLinksCh4";
 import algorithmLinksCh8 from "@/data/algorithmLinksCh8";
 import algorithmLinksCh9 from "@/data/algorithmLinksCh9";
+import Image from 'next/image'
 
 export default function Sidebar() {
     const pathname = usePathname();
 
     return (
-        <div className="menu menu-sm lg:menu-md px-2 py-0 border-l-8 border-r-8  border-teal-200 h-screen top-0 sticky">
+        <div className="menu menu-sm lg:menu-md  overflow-y-auto border-l-8 border-r-8  border-teal-200 h-screen top-0 sticky"> {/* Overflowwing issue when multiple drop downs open something with menu styling"*/}
+            
             <li>
-                <h2 className="menu-title text-emerald-400 ">
-                    ❤ Artificial Intelligence: A Modern Approach
+
+            <div className="flex items-center pb-3"> {/* This container will use flexbox */}
+                <Image
+                    src="/logo.png"
+                    width={100}
+                    height={150}
+                    alt="Logo"
+                    className="" // If you need space between the text and the image, adjust the left padding here
+                />
+
+
+                <h2 className="text-emerald-400 pl-6">
+                A <span className="text-white">Modern</span> Approach<br/> to Artificial Intelligence
                 </h2>
+            </div>
+                
                 <details open >
+
                     <summary>Textbook Chapters</summary>
                     <ul>
                         {chapterLinks.map((link) => (
