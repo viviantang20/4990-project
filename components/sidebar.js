@@ -118,6 +118,29 @@ export default function Sidebar() {
                         ))}
                     </ul>
                 </details>
+
+                <details className="mb-4">
+                    <summary >
+                        Resources
+                    </summary>
+                    <ul className="list-disc pl-5">
+                        <li className="py-1">
+                        <a href="https://aima.cs.berkeley.edu/" className="hover:text-teal-300 text-white" target="_blank" rel="noopener noreferrer">
+                        Berkeley EDU 
+                        </a>
+                        </li>
+                        <li className="py-1">
+                        <a href="https://github.com/aimacode" className="hover:text-teal-300 text-white" target="_blank" rel="noopener noreferrer">
+                            AimaCode
+                        </a>
+                        </li>
+                        <li className="py-1">
+                        <a href="https://chat.openai.com" className="hover:text-teal-300 text-white" target="_blank" rel="noopener noreferrer">
+                            ChatGpt
+                        </a>
+                        </li>
+                    </ul>
+                    </details>
             </li>
         </div>
     );
