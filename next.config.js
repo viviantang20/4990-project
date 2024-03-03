@@ -1,8 +1,5 @@
-import MillionLint from '@million/lint';
-
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-};
+const withMDX = require("@next/mdx")();
+const nextConfig = {};
 
-module.exports = MillionLint.next(nextConfig, { rsc: true });
+module.exports = withMDX(nextConfig);
