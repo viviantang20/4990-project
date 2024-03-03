@@ -49,8 +49,8 @@ export default async function Page({ params }) {
   return (
     <div className="w-full flex flex-row ">
       <Sidebar />
-      <div className="flex-1 flex flex-col justify-center items-center pl-8 ">
-        <div className="prose max-w-5xl">
+      <div className="flex-1 flex flex-col justify-center items-left pl-8 ">
+        <div className="prose max-w-5xl bg-black bg-opacity-20 p-10">
           {pageContent ? <Markdown>{pageContent}</Markdown> : "Loading..."}
         </div>
         <Quiz questions={quizData[params.slug] || []} />
