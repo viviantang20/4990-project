@@ -33,8 +33,7 @@ export default function Sidebar() {
   const chapter13 = chapterLinks[0];
 
   return (
-    <div className="menu menu-sm lg:menu-md  overflow-y-auto border-l-8 border-r-8  border-teal-200 h-screen top-0 sticky">
-      {" "}
+    <div className=" w-64 menu menu-sm lg:menu-md overflow-y-auto border-r-8  border-green-600 h-screen top-0 sticky">
       {/* Overflowwing issue when multiple drop downs open something with menu styling"*/}
       <li>
         <div className="flex items-center pb-3 ">
