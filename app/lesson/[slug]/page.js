@@ -3,6 +3,7 @@
 import axios from "axios";
 import Markdown from "react-markdown";
 import Sidebar from "@/components/sidebar";
+import Rightbar from "@/components/rightbar";
 import Quiz from "@/components/quiz";
 import quizData from "@/data/quizData";
 import Giscus from "@giscus/react";
@@ -47,30 +48,33 @@ export default async function Page({ params }) {
   let pageContent = await getData(apiUrl, headers);
 
   return (
-    <div className="w-full flex flex-row ">
+    <div className="w-full flex flex-row">
       <Sidebar />
-      <div className="flex-1 flex flex-col justify-center items-left pl-8 ">
-        <div className="prose max-w-5xl bg-black bg-opacity-20 p-10">
-          {pageContent ? <Markdown>{pageContent}</Markdown> : "Loading..."}
+      <div className="flex-1 flex">
+        <div className="flex-1 flex flex-col justify-center items-left pl-20 pr-20 pt-6 ">
+          <div className="prose max-w-full bg-black bg-opacity-20 p-4 ">
+            {pageContent ? <Markdown>{pageContent}</Markdown> : "Loading..."}
+          </div>
         </div>
-        <Quiz questions={quizData[params.slug] || []} />
-
-        <Giscus
-          id="comments"
-          repo="NoumanAMalik/i-love-ai-docs"
-          repoId="R_kgDOKhC1Xw"
-          category="Q&A"
-          categoryId="DIC_kwDOKhC1X84Cc_Yl"
-          mapping="pathname"
-          term="Welcome to @giscus/react component!"
-          reactionsEnabled="1"
-          emitMetadata="0"
-          inputPosition="top"
-          theme="preferred_color_scheme"
-          lang="en"
-          loading="lazy"
-          crossorigin="anonymous"
-        />
+        <Rightbar label="Components">
+          <Quiz questions={quizData[params.slug] || []} />
+          <Giscus
+            id="comments"
+            repo="NoumanAMalik/i-love-ai-docs"
+            repoId="R_kgDOKhC1Xw"
+            category="Q&A"
+            categoryId="DIC_kwDOKhC1X84Cc_Yl"
+            mapping="pathname"
+            term="Welcome to @giscus/react component!"
+            reactionsEnabled="1"
+            emitMetadata="0"
+            inputPosition="top"
+            theme="preferred_color_scheme"
+            lang="en"
+            loading="lazy"
+            crossorigin="anonymous"
+          />
+        </Rightbar>
       </div>
     </div>
   );

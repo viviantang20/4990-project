@@ -37,17 +37,17 @@ const Quiz = ({ questions }) => {
   };
 
   return (
-    <div className="container mx-auto mt-8 p-4 rounded-md">
+    <div className="container mx-auto rounded-md">
       {currentQuestion < questions.length ? (
-        <div className="w-4/6">
-          <h2 className="text-2xl font-bold mb-4">
+        <div className="">
+          <h2 className="text-md font-bold mb-4">
             {questions[currentQuestion].question}
           </h2>
           <ul>
             {questions[currentQuestion].options.map((option, index) => (
               <li
                 key={index}
-                className={`cursor-pointer p-2 mb-2 text-white rounded-md ${
+                className={`cursor-pointer p-2 mb-2 text-white rounded-md text-sm ${
                   selectedOption === option
                     ? showFeedback
                       ? questions[currentQuestion].correctAnswer === option

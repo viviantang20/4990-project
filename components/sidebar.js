@@ -33,7 +33,7 @@ export default function Sidebar() {
   const chapter13 = chapterLinks[0];
 
   return (
-    <div className=" w-64 menu menu-sm lg:menu-md overflow-y-auto border-r-8  border-green-600 h-screen top-0 sticky">
+    <div className=" w-64 menu menu-sm lg:menu-md overflow-y-auto border-r-8  border-green-600 h-screen top-0 sticky example custom-summary-container">
       {/* Overflowwing issue when multiple drop downs open something with menu styling"*/}
       <li>
         <div className="flex items-center pb-3 ">
@@ -41,8 +41,8 @@ export default function Sidebar() {
           {/* This container will use flexbox */}
           <Image
             src="/logo.png"
-            width={100}
-            height={150}
+            width={75}
+            height={125}
             alt="Logo"
             className="" // If you need space between the text and the image, adjust the left padding here
           />
@@ -240,7 +240,7 @@ export default function Sidebar() {
           </ul>
         </details>
         <details>
-          <summary>10. Inference in First-Order Logic </summary>
+          <summary>10. Knowledge Representation </summary>
           <ul>
             <li key={chapter1.id}>
               <Link
