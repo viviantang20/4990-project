@@ -242,10 +242,10 @@ export default function Sidebar() {
         <details>
           <summary>10. Knowledge Representation </summary>
           <ul>
-            <li key={chapter1.id}>
+            <li key={chapter10.id}>
               <Link
-                href={`${chapter1.url}`}
-                className={chapter1.url == pathname ? "active" : ""}
+                href={`${chapter10.url}`}
+                className={chapter10.url == pathname ? "active" : ""}
               >
                 Overview
               </Link>
@@ -255,10 +255,10 @@ export default function Sidebar() {
         <details>
           <summary>11. Automated Planning </summary>
           <ul>
-            <li key={chapter1.id}>
+            <li key={chapter11.id}>
               <Link
-                href={`${chapter1.url}`}
-                className={chapter1.url == pathname ? "active" : ""}
+                href={`${chapter11.url}`}
+                className={chapter11.url == pathname ? "active" : ""}
               >
                 Overview
               </Link>
@@ -268,10 +268,10 @@ export default function Sidebar() {
         <details>
           <summary>12. Quantifying Uncertainty </summary>
           <ul>
-            <li key={chapter1.id}>
+            <li key={chapter12.id}>
               <Link
-                href={`${chapter1.url}`}
-                className={chapter1.url == pathname ? "active" : ""}
+                href={`${chapter12.url}`}
+                className={chapter12.url == pathname ? "active" : ""}
               >
                 Overview
               </Link>
@@ -281,10 +281,10 @@ export default function Sidebar() {
         <details>
           <summary>13. Probabilistic Reasoning </summary>
           <ul>
-            <li key={chapter1.id}>
+            <li key={chapter13.id}>
               <Link
-                href={`${chapter1.url}`}
-                className={chapter1.url == pathname ? "active" : ""}
+                href={`${chapter13.url}`}
+                className={chapter13.url == pathname ? "active" : ""}
               >
                 Overview
               </Link>
