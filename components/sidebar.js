@@ -27,10 +27,10 @@ export default function Sidebar() {
 
   const chapter9 = chapterLinks[8];
 
-  const chapter10 = chapterLinks[0];
-  const chapter11 = chapterLinks[0];
-  const chapter12 = chapterLinks[0];
-  const chapter13 = chapterLinks[0];
+  const chapter10 = chapterLinks[9];
+  const chapter11 = chapterLinks[10];
+  const chapter12 = chapterLinks[11];
+  const chapter13 = chapterLinks[12];
 
   return (
     <div className=" w-64 menu menu-sm lg:menu-md overflow-y-auto border-r-8  border-green-600 h-screen top-0 sticky example custom-summary-container">
