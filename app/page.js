@@ -39,9 +39,9 @@ export default function Home() {
                 </Link>
             </div>
             <span className="divider"></span>
-            <div className="ml-auto mr-auto flex h-screen w-2/4 flex-col items-center">
+            <div className="ml-auto mr-auto flex h-fit w-2/4 flex-col items-center gap-8">
                 <h1 className="text-4xl">Features</h1>
-                <div className="hero">
+                <div className="hero rounded-md bg-slate-600 bg-opacity-20 shadow-xl shadow-green-950">
                     <div className="hero-content flex-col md:flex-row-reverse">
                         <Image
                             src="/content.jpeg"
@@ -62,7 +62,7 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-                <div className="hero">
+                <div className="hero rounded-md bg-slate-600 bg-opacity-20 shadow-xl shadow-green-950">
                     <div className="hero-content flex-col md:flex-row">
                         <Image
                             src="/sidebar.jpeg"
@@ -83,7 +83,7 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-                <div className="hero">
+                <div className="hero rounded-md bg-slate-600 bg-opacity-20 shadow-xl shadow-green-950">
                     <div className="hero-content flex-col md:flex-row">
                         <Image
                             src="/quiz.jpeg"
@@ -101,7 +101,7 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-                <div className="hero">
+                <div className="hero rounded-md bg-slate-600 bg-opacity-20 shadow-xl shadow-green-950">
                     <div className="hero-content flex-col md:flex-row-reverse">
                         <Image
                             src="/discussion.jpeg"
