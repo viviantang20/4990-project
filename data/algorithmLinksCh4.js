@@ -5,17 +5,17 @@ let chapter4AlgoLinks = [
     id: 20,
   },
   {
-    url: "/lesson/Breadth-first-search",
+    url: "/lesson/Simulated-annealing",
     title: "Simulated annealing",
     id: 21,
   },
   {
-    url: "/lesson/Dijkstra-algorithm",
+    url: "/lesson/Local-beam-search",
     title: "Local beam search",
     id: 22,
   },
   {
-    url: "/lesson/Depth-limited-search",
+    url: "/lesson/Evolutionary-algorithms",
     title: " Evolutionary algorithms",
     id: 23,
   },

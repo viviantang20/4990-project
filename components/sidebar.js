@@ -92,7 +92,7 @@ export default function Sidebar() {
               <details>
                 <summary>
                   {" "}
-                  Search Algorithms <tab />{" "}
+                  Search Algorithms {" "}
                 </summary>
                 <ul>
                   {chapter3AlgoLinks.map((link) => (
@@ -124,7 +124,7 @@ export default function Sidebar() {
               <details>
                 <summary>
                   {" "}
-                  Search Algorithms <tab />{" "}
+                  Search Algorithms {" "}
                 </summary>
                 <ul>
                   {chapter4AlgoLinks.map((link) => (
