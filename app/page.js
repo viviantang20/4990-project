@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Home() {
     return (
         <main className="h-fit pt-20">
-            <div className="h-full flex flex-col justify-center items-center">
+            <div className="flex h-full flex-col items-center justify-center">
                 <Image
                     src="/logo.png"
                     width={100}
@@ -19,7 +19,7 @@ export default function Home() {
                     </span>
                 </h1>
 
-                <h3 className="text-lg mt-2">
+                <h3 className="mt-2 text-lg">
                     Where Textbook Knowledge Meets Interactive Learning
                 </h3>
 
@@ -30,7 +30,7 @@ export default function Home() {
                     className="p-4"
                 />
 
-                <h3 className="text-lg mt-auto">
+                <h3 className="mt-auto text-lg">
                     A project made by Jaxon, Nouman, and Vivian
                 </h3>
 
@@ -39,8 +39,50 @@ export default function Home() {
                 </Link>
             </div>
             <span className="divider"></span>
-            <div className="h-screen w-2/4 ml-auto mr-auto flex flex-col items-center">
+            <div className="ml-auto mr-auto flex h-screen w-2/4 flex-col items-center">
                 <h1 className="text-4xl">Features</h1>
+                <div className="hero">
+                    <div className="hero-content flex-col md:flex-row-reverse">
+                        <Image
+                            src="/content.jpeg"
+                            width={400}
+                            height={250}
+                            className="max-w-sm rounded-lg shadow-2xl"
+                        />
+                        <div>
+                            <h1 className="text-3xl font-bold">
+                                Simple, Digestable Content!
+                            </h1>
+                            <p className="py-6">
+                                Textbook content, condensed into small easy to
+                                read sections. Highlighting the most important
+                                parts to reinforce to the reader what to
+                                remember.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div className="hero">
+                    <div className="hero-content flex-col md:flex-row">
+                        <Image
+                            src="/sidebar.jpeg"
+                            width={400}
+                            height={250}
+                            className="max-w-sm rounded-lg shadow-2xl"
+                        />
+                        <div>
+                            <h1 className="text-3xl font-bold">
+                                Easy Navigation
+                            </h1>
+                            <p className="py-6">
+                                All content is organized based on chapters, so
+                                as students are covering chapters in class, they
+                                can find all the supplemental information that
+                                they need in one area.
+                            </p>
+                        </div>
+                    </div>
+                </div>
                 <div className="hero">
                     <div className="hero-content flex-col md:flex-row">
                         <Image
