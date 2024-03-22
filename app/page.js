@@ -1,44 +1,122 @@
-"use client";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
     return (
-        <main className="h-screen w-screen flex align-center justify-center">
-            <div className="h-full lg:w-1/2 flex flex-col justify-center items-center">
+        <main className="h-fit pt-20">
+            <div className="flex h-full flex-col items-center justify-center">
+                <Image
+                    src="/logo.png"
+                    width={100}
+                    height={150}
+                    alt="Logo"
+                    className="mb-8" // If you need space between the text and the image, adjust the left padding here
+                />
                 <h1 className="text-7xl">
-                    I <span className="text-red-500">❤</span> AI
+                    Welcome to{" "}
+                    <span className="text-emerald-400 hover:underline">
+                        iLoveAI
+                    </span>
                 </h1>
-                <h2 className="text-xl mt-2">
-                    Project by Jaxon, Nouman, and Vivian
-                </h2>
-                <div className="divider"></div>
-                <h2 className="text-lg">
-                    The AI course she told you not to worry about
-                </h2>
+
+                <h3 className="mt-2 text-lg">
+                    Where Textbook Knowledge Meets Interactive Learning
+                </h3>
+
+                <Image
+                    src="/mainpage.jpeg"
+                    width={750}
+                    height={750}
+                    className="p-4"
+                />
+
+                <h3 className="mt-auto text-lg">
+                    A project made by Jaxon, Nouman, and Vivian
+                </h3>
 
                 <Link href="/lesson/Introduction">
-                    <a className="btn mt-4">Begin Your Journey</a>{" "}
-                    {/* Using an anchor tag styled as a button */}
+                    <p className="btn mt-4">Begin Your Journey!</p>{" "}
                 </Link>
-                {/* <dialog
-                    id="my_modal_5"
-                    className="modal modal-bottom sm:modal-middle"
-                >
-                    <div className="modal-box">
-                        <h3 className="font-bold text-lg">
-                            Thanks for Joining!
-                        </h3>
-                        <p className="py-4">
-                            I'm not going to save your email right now, so check
-                            back later :)
-                        </p>
-                        <div className="modal-action">
-                            <form method="dialog">
-                                <button className="btn">Close</button>
-                            </form>
+            </div>
+            <span className="divider"></span>
+            <div className="ml-auto mr-auto flex h-fit w-2/4 flex-col items-center gap-8">
+                <h1 className="text-4xl">Features</h1>
+                <div className="hero rounded-md bg-slate-600 bg-opacity-20 shadow-xl shadow-green-950">
+                    <div className="hero-content flex-col md:flex-row-reverse">
+                        <Image
+                            src="/content.jpeg"
+                            width={400}
+                            height={250}
+                            className="max-w-sm rounded-lg shadow-2xl"
+                        />
+                        <div>
+                            <h1 className="text-3xl font-bold">
+                                Simple, Digestable Content!
+                            </h1>
+                            <p className="py-6">
+                                Textbook content, condensed into small easy to
+                                read sections. Highlighting the most important
+                                parts to reinforce to the reader what to
+                                remember.
+                            </p>
                         </div>
                     </div>
-                </dialog> */}
+                </div>
+                <div className="hero rounded-md bg-slate-600 bg-opacity-20 shadow-xl shadow-green-950">
+                    <div className="hero-content flex-col md:flex-row">
+                        <Image
+                            src="/sidebar.jpeg"
+                            width={400}
+                            height={250}
+                            className="max-w-sm rounded-lg shadow-2xl"
+                        />
+                        <div>
+                            <h1 className="text-3xl font-bold">
+                                Easy Navigation
+                            </h1>
+                            <p className="py-6">
+                                All content is organized based on chapters, so
+                                as students are covering chapters in class, they
+                                can find all the supplemental information that
+                                they need in one area.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div className="hero rounded-md bg-slate-600 bg-opacity-20 shadow-xl shadow-green-950">
+                    <div className="hero-content flex-col md:flex-row">
+                        <Image
+                            src="/quiz.jpeg"
+                            width={400}
+                            height={250}
+                            className="max-w-sm rounded-lg shadow-2xl"
+                        />
+                        <div>
+                            <h1 className="text-3xl font-bold">Quizzes!</h1>
+                            <p className="py-6">
+                                Created off of content from each chapter
+                                ensuring student retention and also reiterating
+                                important information students should remember
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div className="hero rounded-md bg-slate-600 bg-opacity-20 shadow-xl shadow-green-950">
+                    <div className="hero-content flex-col md:flex-row-reverse">
+                        <Image
+                            src="/discussion.jpeg"
+                            width={400}
+                            height={250}
+                            className="max-w-sm rounded-lg shadow-2xl"
+                        />
+                        <div>
+                            <h1 className="text-3xl font-bold">Discussions</h1>
+                            <p className="py-6">
+                                Discussion board for collaborative learning,
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
     );
