@@ -43,75 +43,27 @@ export default function Page() {
                   >
                     What is AI
                   </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    AI Concepts
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    AI Risks
-                  </a>
                 </div>
                 <div>
                   <h3 className="font-semibold mb-2">Articles</h3>
                   <a
-                    href="https://www.example.com/articles/what-is-ai"
+                    href="https://www.ibm.com/topics/artificial-intelligence"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="block hover:text-blue-300"
                   >
-                    What is AI
-                  </a>
-                  <a
-                    href="https://www.example.com/articles/what-is-ai"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    AI Concepts
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    AI Risks
+                    IBM: What is AI
                   </a>
                 </div>
                 <div>
                   <h3 className="font-semibold mb-2">Tutorials</h3>
                   <a
-                    href="https://www.example.com/tutorials/what-is-ai"
+                    href="https://microsoft.github.io/AI-For-Beginners/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="block hover:text-blue-300"
                   >
-                    What is AI
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    Ai Concepts
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    AI Risks
+                    Microsoft: AI for Beginners
                   </a>
                 </div>
               </div>
@@ -131,23 +83,7 @@ export default function Page() {
                     rel="noopener noreferrer"
                     className="block hover:text-blue-300"
                   >
-                    Agents
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    Behavior
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    Structure
+                    The World of AI Agents
                   </a>
                 </div>
                 <div>
@@ -158,23 +94,7 @@ export default function Page() {
                     rel="noopener noreferrer"
                     className="block hover:text-blue-300"
                   >
-                    Agents
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    Behavior
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    Structure
+                    Agents and Environments: The Building Blocks of AI
                   </a>
                 </div>
                 <div>
@@ -185,23 +105,7 @@ export default function Page() {
                     rel="noopener noreferrer"
                     className="block hover:text-blue-300"
                   >
-                    Agents
-                  </a>{" "}
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    Behavior
-                  </a>{" "}
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    Structure
+                    Designing Your First Intelligent Agent
                   </a>
                 </div>
               </div>
@@ -221,23 +125,7 @@ export default function Page() {
                     rel="noopener noreferrer"
                     className="block hover:text-blue-300"
                   >
-                    Examples
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    Search Algo
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    Heuristic
+                    Navigating Complexities: Search Strategies
                   </a>
                 </div>
                 <div>
@@ -248,23 +136,7 @@ export default function Page() {
                     rel="noopener noreferrer"
                     className="block hover:text-blue-300"
                   >
-                    Examples
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    Search Algo
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    Heuristic
+                    Optimizing Search: From Algorithms to Heuristics
                   </a>
                 </div>
                 <div>
@@ -275,23 +147,7 @@ export default function Page() {
                     rel="noopener noreferrer"
                     className="block hover:text-blue-300"
                   >
-                    Examples
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    Search Algo
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    Heuristic
+                    Implementing Search Algorithms in Code
                   </a>
                 </div>
               </div>
@@ -313,23 +169,7 @@ export default function Page() {
                     rel="noopener noreferrer"
                     className="block hover:text-blue-300"
                   >
-                    Local Search
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    Nondeterminsistic
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    Partially Oberservable
+                    Exploring Search in Dynamic Environments
                   </a>
                 </div>
                 <div>
@@ -340,23 +180,7 @@ export default function Page() {
                     rel="noopener noreferrer"
                     className="block hover:text-blue-300"
                   >
-                    Local Search
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    Nondeterminsistic
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    Partially Oberservable
+                    Search Techniques for the Real World
                   </a>
                 </div>
                 <div>
@@ -367,23 +191,7 @@ export default function Page() {
                     rel="noopener noreferrer"
                     className="block hover:text-blue-300"
                   >
-                    Local Search
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    Nondeterminsistic
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    Partially Oberservable
+                    Advanced Search: Tackling the Unknown
                   </a>
                 </div>
               </div>
@@ -403,22 +211,8 @@ export default function Page() {
                     rel="noopener noreferrer"
                     className="block hover:text-blue-300"
                   >
-                    Constraints
+                    Unlocking Problems: The Power of Constraints
                   </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    Problem Form
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  ></a>
                 </div>
                 <div>
                   <h3 className="font-semibold mb-2">Articles</h3>
@@ -428,22 +222,8 @@ export default function Page() {
                     rel="noopener noreferrer"
                     className="block hover:text-blue-300"
                   >
-                    Constraints
+                    Constraints: AI's Rulebook
                   </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    Problem Form
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  ></a>
                 </div>
                 <div>
                   <h3 className="font-semibold mb-2">Tutorials</h3>
@@ -453,23 +233,7 @@ export default function Page() {
                     rel="noopener noreferrer"
                     className="block hover:text-blue-300"
                   >
-                    Constraints
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    Problem Form
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
+                    Constraint Satisfaction Problems: A Primer
                   </a>
                 </div>
               </div>
@@ -488,23 +252,7 @@ export default function Page() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="block hover:text-blue-300"
-                  ></a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
-                  </a>
+                  >AI in Competition: Adversarial Search Strategies</a>
                 </div>
                 <div>
                   <h3 className="font-semibold mb-2">Articles</h3>
@@ -514,23 +262,7 @@ export default function Page() {
                     rel="noopener noreferrer"
                     className="block hover:text-blue-300"
                   >
-                    What is AI
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
+                    Game Theory and AI: The Adversarial Dance
                   </a>
                 </div>
                 <div>
@@ -541,23 +273,7 @@ export default function Page() {
                     rel="noopener noreferrer"
                     className="block hover:text-blue-300"
                   >
-                    What is AI
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
+                    Coding Chess: An Exercise in Adversarial Search
                   </a>
                 </div>
               </div>
@@ -579,23 +295,7 @@ export default function Page() {
                     rel="noopener noreferrer"
                     className="block hover:text-blue-300"
                   >
-                    What is AI
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
+                    Rational Thinking: Logical Agents in Action
                   </a>
                 </div>
                 <div>
@@ -606,23 +306,7 @@ export default function Page() {
                     rel="noopener noreferrer"
                     className="block hover:text-blue-300"
                   >
-                    What is AI
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
+                    Logic and AI: How Agents Reason
                   </a>
                 </div>
                 <div>
@@ -633,23 +317,7 @@ export default function Page() {
                     rel="noopener noreferrer"
                     className="block hover:text-blue-300"
                   >
-                    What is AI
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
+                    Building Logical Agents with Prolog
                   </a>
                 </div>
               </div>
@@ -669,23 +337,7 @@ export default function Page() {
                     rel="noopener noreferrer"
                     className="block hover:text-blue-300"
                   >
-                    What is AI
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
+                    Beyond Binary: Introduction to First-Order Logic
                   </a>
                 </div>
                 <div>
@@ -696,23 +348,7 @@ export default function Page() {
                     rel="noopener noreferrer"
                     className="block hover:text-blue-300"
                   >
-                    What is AI
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
+                    Expanding AI's Vocabulary: First-Order Logic Explained
                   </a>
                 </div>
                 <div>
@@ -723,23 +359,7 @@ export default function Page() {
                     rel="noopener noreferrer"
                     className="block hover:text-blue-300"
                   >
-                    What is AI
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
+                    First-Order Logic in AI: Writing Your First Queries
                   </a>
                 </div>
               </div>
@@ -759,23 +379,7 @@ export default function Page() {
                     rel="noopener noreferrer"
                     className="block hover:text-blue-300"
                   >
-                    What is AI
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
+                    The Art of Deduction: AI and Inference
                   </a>
                 </div>
                 <div>
@@ -786,23 +390,7 @@ export default function Page() {
                     rel="noopener noreferrer"
                     className="block hover:text-blue-300"
                   >
-                    What is AI
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
+                    Inference Engines: Driving AI's Thought Process
                   </a>
                 </div>
                 <div>
@@ -813,23 +401,7 @@ export default function Page() {
                     rel="noopener noreferrer"
                     className="block hover:text-blue-300"
                   >
-                    What is AI
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
+                    Automated Reasoning: Crafting Inference Algorithms
                   </a>
                 </div>
               </div>
@@ -851,23 +423,7 @@ export default function Page() {
                     rel="noopener noreferrer"
                     className="block hover:text-blue-300"
                   >
-                    What is AI
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
+                    Mapping the Mind: AI's Knowledge Landscape
                   </a>
                 </div>
                 <div>
@@ -878,23 +434,7 @@ export default function Page() {
                     rel="noopener noreferrer"
                     className="block hover:text-blue-300"
                   >
-                    What is AI
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
+                    Encapsulating Reality: AI's Knowledge Representation
                   </a>
                 </div>
                 <div>
@@ -905,23 +445,7 @@ export default function Page() {
                     rel="noopener noreferrer"
                     className="block hover:text-blue-300"
                   >
-                    What is AI
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
+                    Creating Knowledge Bases for AI
                   </a>
                 </div>
               </div>
@@ -941,23 +465,7 @@ export default function Page() {
                     rel="noopener noreferrer"
                     className="block hover:text-blue-300"
                   >
-                    What is AI
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
+                    Planning Ahead: AI's Roadmap to Action
                   </a>
                 </div>
                 <div>
@@ -968,23 +476,7 @@ export default function Page() {
                     rel="noopener noreferrer"
                     className="block hover:text-blue-300"
                   >
-                    What is AI
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
+                    Scripting the Future: The Role of Automated Planning in AI
                   </a>
                 </div>
                 <div>
@@ -995,23 +487,7 @@ export default function Page() {
                     rel="noopener noreferrer"
                     className="block hover:text-blue-300"
                   >
-                    What is AI
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
+                    From Goals to Actions: Automating AI Plans
                   </a>
                 </div>
               </div>
@@ -1031,23 +507,7 @@ export default function Page() {
                     rel="noopener noreferrer"
                     className="block hover:text-blue-300"
                   >
-                    What is AI
-                  </a>{" "}
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
+                    Calculating Risks: AI's Approach to Uncertainty
                   </a>
                 </div>
                 <div>
@@ -1058,23 +518,7 @@ export default function Page() {
                     rel="noopener noreferrer"
                     className="block hover:text-blue-300"
                   >
-                    What is AI
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
+                    Navigating the Unknown: Probabilities in AI
                   </a>
                 </div>
                 <div>
@@ -1085,23 +529,7 @@ export default function Page() {
                     rel="noopener noreferrer"
                     className="block hover:text-blue-300"
                   >
-                    What is AI
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
+                    Uncertain Outcomes: Programming Probabilistic Models
                   </a>
                 </div>
               </div>
@@ -1123,23 +551,7 @@ export default function Page() {
                     rel="noopener noreferrer"
                     className="block hover:text-blue-300"
                   >
-                    What is AI
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
+                    Reasoning in a World of Chances
                   </a>
                 </div>
                 <div>
@@ -1150,24 +562,8 @@ export default function Page() {
                     rel="noopener noreferrer"
                     className="block hover:text-blue-300"
                   >
-                    What is AI
-                  </a>{" "}
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
+                    Probability and Logic: How AI Predicts the Unpredictable
                   </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
-                  </a>{" "}
                 </div>
                 <div>
                   <h3 className="font-semibold mb-2">Tutorials</h3>
@@ -1177,23 +573,7 @@ export default function Page() {
                     rel="noopener noreferrer"
                     className="block hover:text-blue-300"
                   >
-                    What is AI
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
+                    Bayesian Thinking: Making Sense of AI's Decisions
                   </a>
                 </div>
               </div>
@@ -1211,23 +591,7 @@ export default function Page() {
                     rel="noopener noreferrer"
                     className="block hover:text-blue-300"
                   >
-                    What is AI
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
+                    The Algorithms That Shape AI
                   </a>
                 </div>
                 <div>
@@ -1238,23 +602,7 @@ export default function Page() {
                     rel="noopener noreferrer"
                     className="block hover:text-blue-300"
                   >
-                    What is AI
-                  </a>{" "}
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
+                    From Logic to Learning: The Algorithms Behind AI
                   </a>
                 </div>
                 <div>
@@ -1265,23 +613,7 @@ export default function Page() {
                     rel="noopener noreferrer"
                     className="block hover:text-blue-300"
                   >
-                    What is AI
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
+                    Algorithmic Adventures: Implementing AI Solutions
                   </a>
                 </div>
               </div>
@@ -1301,23 +633,7 @@ export default function Page() {
                     rel="noopener noreferrer"
                     className="block hover:text-blue-300"
                   >
-                    What is AI
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
+                    Exploring the Edges: The Future of AI
                   </a>
                 </div>
                 <div>
@@ -1328,23 +644,7 @@ export default function Page() {
                     rel="noopener noreferrer"
                     className="block hover:text-blue-300"
                   >
-                    What is AI
-                  </a>{" "}
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
-                  </a>{" "}
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
+                    AI in Depth: Diving into Advanced Topics
                   </a>
                 </div>
                 <div>
@@ -1355,23 +655,7 @@ export default function Page() {
                     rel="noopener noreferrer"
                     className="block hover:text-blue-300"
                   >
-                    What is AI
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=J4RqCSD--Dg&ab_channel=LearnFree"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block hover:text-blue-300"
-                  >
-                    What is AI
+                    Beyond Basics: Advanced AI Development
                   </a>
                 </div>
               </div>
