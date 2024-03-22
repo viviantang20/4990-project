@@ -1,7 +1,6 @@
 "use client";
 // components/Quiz.js
 import { useState } from "react";
-import { toast } from "sonner";
 
 const Quiz = ({ questions }) => {
   const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -21,7 +20,6 @@ const Quiz = ({ questions }) => {
 
   const handleSubmit = () => {
     setShowFeedback(true);
-    toast.success(`${numCorrect} / 4`);
   };
 
   const handleNextQuestion = () => {
@@ -37,7 +35,7 @@ const Quiz = ({ questions }) => {
   };
 
   return (
-    <div className="container mx-auto rounded-md">
+    <div className="container mx-auto rounded-md ">
       {currentQuestion < questions.length ? (
         <div className="">
           <h2 className="text-md font-bold mb-4">
