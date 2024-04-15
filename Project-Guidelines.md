@@ -2,7 +2,7 @@
 
 This repo contains a Next.js project for the front end of this website. We are styling it using TailWind CSS and DaisyUI for components.
 
-You will find the pages inside tha app directory.
+You will find the pages inside the app directory.
 The components directory contains small sections of the front end.
 
 We have the docs hosted right [here](https://github.com/NoumanAMalik/i-love-ai-docs). Every time a page is opened, in this [line of code](https://github.com/viviantang20/4990-project/blob/d43bd3b631b7fef83458452d375e44b917e552be/app/lesson/%5Bslug%5D/page.js#L51), it makes a fetch to the docs repo to get the markdown content to display to the user.
